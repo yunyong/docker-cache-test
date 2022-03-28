@@ -12,7 +12,7 @@ jobs:
 
     steps:
       - name: Checkout
-       uses: actions/checkout@v2
+        uses: actions/checkout@v2
 
       - name: Build the Docker image
         run: docker build -t my-image-name:$(date +%s) .
@@ -28,6 +28,3 @@ jobs:
       #     tags: user/app:latest
       #     cache-from: type=gha # 여기서 gha 는 Guthub Actions 용 캐시를 의미합니다.
       #     cache-to: type=gha,mode=max
-
-
-
