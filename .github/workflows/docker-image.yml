@@ -2,7 +2,7 @@ name: Docker Image CI
 
 on:
   push:
-    branches: [main]
+    branches: [dev/test]
   pull_request:
     branches: [main]
 
@@ -26,5 +26,5 @@ jobs:
           context: .
           push: false
           tags: user/app:latest
-          cache-from: type=gha # 여기서 gha 는 Guthub Actions 용 캐시를 의미합니다.
-          cache-to: type=gha,mode=max
+          # cache-from: type=gha # 여기서 gha 는 Guthub Actions 용 캐시를 의미합니다.
+          # cache-to: type=gha,mode=max
