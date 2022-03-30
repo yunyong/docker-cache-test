@@ -87,7 +87,6 @@
     "babel-plugin-transform-inline-environment-variables": "0.4.3",
     "eslint": "7.23.0",
     "eslint-plugin-import": "2.22.1",
-    "eslint-plugin-kw-plugin": "./lintRule",
     "eslint-plugin-prefer-arrow": "1.2.3",
     "eslint-plugin-react": "7.23.1",
     "identity-obj-proxy": "3.0.0",
