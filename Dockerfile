@@ -6,7 +6,7 @@ WORKDIR /usr/src/app
 COPY package*.json ./
 
 # 필요한 패키지들을 설치해주고
-RUN npm install
+RUN npm ci
 
 # 작업했던 파일들을 복사해서 넣어 줍니다.
 COPY . .
